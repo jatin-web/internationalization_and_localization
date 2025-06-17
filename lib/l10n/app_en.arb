@@ -1,0 +1,20 @@
+{
+    "@@locale" : "en",
+
+    "appTitle" : "Learn internationalization and localization",
+    "@appTitle" : {
+        "description": "The description of the app"
+    },
+    
+    "homeTitle" : "Hello, {name}!",
+    "@homeTitle" : {
+        "description": "Title on home page",
+        "placeholders": {
+            "name" : {
+                "type" : "String",
+                "example" : "John"
+            }
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+{
+    "@@locale": "es",
+
+    "appTitle": "Aprende internacionalización y localización",
+    "@appTitle": {
+        "description": "La descripción de la aplicación"
+    },
+    
+    "homeTitle": "¡Hola, {name}!",
+    "@homeTitle": {
+        "description": "Título en la página de inicio",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Juan"
+            }
+        }
+    }
+}
